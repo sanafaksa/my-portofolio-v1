@@ -1,0 +1,99 @@
+.hero {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--header-height);
+}
+
+.hero .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero .container .content svg {
+    margin-bottom: -6rem;
+}
+
+.hero .container .content svg text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: clamp(3rem, 6vw, 8rem);
+    animation: stroke 5s infinite alternate;
+}
+
+.hero .container .content h2 {
+    text-align: center;
+    font-size: clamp(1.1rem, 0.9rem + 1.2vw, 2.2rem);
+    font-weight: 500;
+    line-height: 1.6;
+    width: min(75%, 56rem);
+}
+
+
+.hero .container .content h2 span {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.hero .container .content button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-top: 2rem;
+    min-height: 44px;
+    outline: none;
+}
+
+.hero .container .content button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 3.5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px #fff;
+    transition: all 0.2s ease;
+}
+
+.hero .container .content button:hover span {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0px 0px #fff;
+}
+
+.hero .container .content button:active span {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 0px 0px #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero .container .content svg {
+        margin-bottom: -3.5rem;
+    }
+
+    .hero .container .content h2 {
+        width: min(90%, 36rem);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .container .content svg {
+        margin-bottom: -2rem;
+    }
+}
