@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/img.jpg" type="image/jpeg" />
+  <title>Aksanaf Production</title>
+</head>
+
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="assets/images/12686138_3840_2160_30fps.mp4" type="video/mp4">
+  </video>
+  <header>
+    <div class="logo">
+      <a href="#home">Aksanaf Production</a>
+    </div>
+
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="extra-nav">
+      <button onclick="window.location.href='#contact'">Start a Project</button>
+    </div>
+
+    <button id="menu" class="menu-toggle" type="button" aria-label="Open menu" aria-controls="nav-mobile"
+      aria-expanded="false">
+      <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+        <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+        <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+
+    <nav id="nav-mobile" class="mobile-nav" aria-hidden="true">
+      <button id="close-mobile" class="close" type="button" aria-label="Close menu">
+        <svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #ffffff;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+
+          <title />
+
+          <g id="cross">
+            <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+            <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+          </g>
+        </svg>
+      </button>
+      <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skilll">Skilll</a></li>
+        <li><a class="nav-link" href="#project">Project</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="content">
+        <svg viewBox="0 0 1500 500" data-aos="fade-down">
+          <text x="50%" y="50%" text-anchor="middle">Aksanaf Production</text>
+        </svg>
+        <h1 data-aos="zoom-in-up">
+          Custom Frontend Development, Web Design, Graphic Design, and Video Editing crafted to elevate your digital
+          presence, strengthen your brand identity,
+          and turn ideas into impactful user <br /> <span>focused web experiences</span>
+        </h1>
+        <button data-aos="zoom-out" onclick="window.location.href='#project'"><span>Show my Work</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          About Me
+        </h1>
+        <div class="about-me">
+          <div data-aos="fade-down" data-aos-duration="1500" class="profile">
+            <div class="image-box">
+              <img src="assets/images/img.jpg" alt="profile" />
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="500" class="description">
+            <p>
+              Hello! I’m Nafian a Front-End Developer passionate about creating modern, interactive,
+              and user-friendly digital experiences. I have a strong foundation in HTML, CSS, and JavaScript,
+              along with hands-on experience using React, Next.js, and Tailwind CSS to turn ideas into fully functional,
+              responsive websites.
+              <br /><br />
+              My journey in the digital world began with a deep interest in visual design. In addition to front-end
+              development, I have a background as a Graphic Designer and Photographer, combining design principles such
+              as color theory, typography, layout,
+              and branding with expressive and purposeful photography.
+              This design perspective allows me to create interfaces that are not only visually appealing but also
+              intuitive and aligned with strong UI/UX principles.
+              <br /><br />
+              I also have skills in video editing, enabling me to produce engaging visual content such as promotional
+              videos,
+              social media content, project documentation, and simple motion graphics.
+              By combining front-end development, graphic design, and video editing,
+              I can deliver cohesive and impactful digital solutions across multiple platforms.
+              <br /><br />
+              In every project, I focus on responsive design,
+              performance optimization, usability, and visual detail.
+              I enjoy collaborating with clients to understand their vision and translating it into digital products
+              that are functional,
+              aesthetic, and effective.
+              <br /><br />
+              Beyond technical work, I value creativity, problem-solving, and continuous learning.
+              I stay up to date with the latest front-end technologies and design trends to ensure my work remains
+              relevant and high-quality.
+              <br /><br />
+              My goal is simple: to create digital experiences that not only look great but also feel intuitive and
+              enjoyable.
+              If you’re looking for someone who combines technical expertise, visual design, and multimedia creativity,
+              you’re in the right place.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="skill">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="zoom-in-down" data-aos-delay="200" class="title">
+          Skill
+        </h1>
+
+        <div class="skills" data-aos-delay="500">
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/pr.png" alt="pr" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/ai_icon.svg" alt="Adobe Illustrator" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/javascript.svg" alt="javascript" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/images.jpg" alt="images" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/react.svg" alt="react" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/ae.jpg" alt="ae" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/ps.jpg" alt="photoshop" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/tailwind.svg" alt="tailwind" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/mysql.svg" alt="mysql" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/postgresql.svg" alt="postgresql" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/figma.svg" alt="figma" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/github.svg" alt="github" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="project">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          Project
+        </h1>
+
+        <div class="projects">
+          <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+            <img src="assets/images/Screenshot 2026-01-16 174849.png" alt="project" />
+
+            <div class="description">
+              <h1>Web Design</h1>
+              <p>
+                Web design that visually represents the relationships between different departments
+                or roles.
+              </p>
+              <div class="action">
+                <button onclick="window.open('https://kaylacakecookies.netlify.app/', '_blank')">Visit Website</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/images/Screenshot 2026-01-11 212037.png" alt="project" />
+
+            <div class="description">
+              <h1>T-shirt mockup</h1>
+              <p>
+                create clothing mockups to visualize designs realistically before production.
+              </p>
+
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+            <img src="assets/images/photografer.jpg" alt="project" />
+
+            <div class="description">
+              <h1>Photographer</h1>
+              <p>
+                Photographer that visually represents the relationships between different departments or roles.
+              </p>
+
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/58E8MYN7WIk?si=sLuHWYbYWfnMg0TC"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+              style="border-radius: 12px 12px 0 0;"></iframe>
+
+            <div class="description">
+              <h1>Video editing</h1>
+              <p>
+                Video editing process using Adobe Premiere Pro, focusing on timeline arrangement, color correction, and
+                audio balancing for a clean, professional result.
+              </p>
+
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/images/cp.png" alt="project" />
+
+            <div class="description">
+              <h1>Poster design</h1>
+              <p>
+                Poster design that communicates ideas clearly through strong visuals, typography, and layout.
+              </p>
+
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+            <img src="assets/images/Screenshot 2026-01-16 180351.png" alt="project" />
+
+            <div class="description">
+              <h1>Logo design</h1>
+              <p>
+                This image shows a logo design process created using Adobe Illustrator, featuring a bold emblem with
+                symmetrical shapes, strong outlines, and vibrant colors. The design reflects an organizational identity,
+                emphasizing clarity, balance, and symbolic meaning suitable for branding and official use.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          Contact
+        </h1>
+
+        <form action="https://formspree.io/f/xdaaaazr" method="POST" data-aos="zoom-in-down" data-aos-delay="300"
+          class="contact-form">
+          <div class="input">
+            <input type="text" name="name" placeholder="Name..." required />
+            <input type="email" name="email" placeholder="Email..." required />
+            <input type="number" name="phone" placeholder="Phone..." />
+            <input type="text" name="subject" placeholder="Subject..." />
+          </div>
+          <textarea name="message" placeholder="Message..." required></textarea>
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div data-aos="fade-up" data-aos-duration="1000" class="container">
+      <div class="profile">
+        <div class="logo">
+          <a href="">Social Media</a>
+        </div>
+
+
+        <p>
+          Follow for more creative work, including design, video, and web projects.
+          <br>Feel free to reach out if you’d like to collaborate or work together.
+        </p>
+
+        <div class="social-media-container">
+          <div class="social-media">
+            <a href="https://www.instagram.com/zi.afian/" target="_blank">
+              <img src="assets/sosmed logo/instragram.avif" alt="instagram" />
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.youtube.com/@aksanafproduction" target="_blank">
+              <img src="assets/sosmed logo/youtube.avif" alt="youtube" />
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.tiktok.com/@nfian_z" target="_blank ">
+              <img src="assets/sosmed logo/tiktok.avif" alt="tiktok" />
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="https://id.linkedin.com/in/zidniilmannafian" target="_blank">
+              <img src="assets/sosmed logo/linkedin.avif" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="link-container">
+        <div class="information">
+          <h1> My Skill</h1>
+          <ul>
+            <li>
+              <a href="#skill">PHOTGRAPHY</a>
+            </li>
+            <li>
+              <a href="#skill">WEB DESIGN</a>
+            </li>
+            <li>
+              <a href="#skill">UI/UX DESIGN</a>
+            </li>
+            <li>
+              <a href="#skill">VOICE OVER</a>
+            </li>
+            <li>
+              <a href="#skill">VIDEO EDITING</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="resource">
+          <h1>Design & Editing Tools</h1>
+          <ul>
+            <li>
+              <a href="#skill">Adobe After Effects</a>
+            </li>
+            <li>
+              <a href="#skill">Adobe Photoshop</a>
+            </li>
+            <li>
+              <a href="#skill">Figma</a>
+            </li>
+            <li>
+              <a href="#skill">Adobe Premiere Pro</a>
+            </li>
+            <li>
+              <a href="#skill">CapCut</a>
+            </li>
+            <li>
+              <a href="#skill">Canva</a>
+            </li>
+            <li>
+              <a href="#skill">Adobe Illustrator</a>
+            </li>
+            <li>
+              <a href="#skill">Adobe XD</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <h1>Navigation</h1>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skill">Skill</a>
+            </li>
+            <li>
+              <a href="#project">Project</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 Aksanaf production. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
