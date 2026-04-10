@@ -4,7 +4,7 @@ Website portfolio & service frontend development, web design, graphic design, da
 
 💡 Dibangun menggunakan **HTML & CSS**, dengan struktur konten untuk branding profesional dan showcase skill.
 
-🔗 Website: https://aksanafproduction.nafian.my.id/ :contentReference[oaicite:2]{index=2}
+🔗 Website: www.nafian.my.id/ :contentReference[oaicite:2]{index=2}
 
 ---
 
